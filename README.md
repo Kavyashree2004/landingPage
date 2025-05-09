@@ -24,18 +24,7 @@ Services section with images and titles
 🖼️ Image Handling Note
 The HTML currently references images from a local filesystem (e.g., C:\Users\kavya\Downloads\...). These paths should be updated to relative paths for web use. It's recommended to move all images to an assets/ folder and update the <img> tags accordingly:
 
-html
-Copy
-Edit
-<img src="assets/image-name.jpg" alt="Description" />
-📦 How to Use
-Clone the repository:
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/your-repo-name.git
-Open landingpage.html in a browser.
 
 Ensure you also include style.css and images in the correct relative paths.
 
